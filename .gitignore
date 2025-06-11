@@ -1,0 +1,75 @@
+# :Not mine and/or boring
+Third-party/
+
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# Temporary files
+*.000
+*.sch-bak
+*.kicad_sch-bak
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+_saved_*
+*.tmp
+*-backups/
+
+# Project setting files
+*.kicad_prl
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+.dsn
+
+# Exported BOM files
+# *.xml
+# *.csv
+Thumbs.db
+gerbers/
+gerbers_*/
+gbr/
+
+# Archive files
+*.zip
+*.rar
+*.tar
+*.gz
+*.xz
+
+# Rendered schematics and exported board drawings
+*.svg
+*.pdf
+
+# Position files for pick&placing
+*.pos
+
+#Some useless cache file
+fp-info-cache
+
+# "rescue" backup files
+rescue-backup/
+
+# panel files
+panel*kicad_pcb
+panel*kicad_prl
+panel*kicad_pro
+
+# extra panel files - blacklisted until -f added
+panel_*.json
+
+# nano editor files
+.*.swp
+
+\#auto_saved_files#
+
+# 3D files
+*.step
+
+# BOM
+*.csv
+
+(thank u arya for letting me steal https://github.com/CRImier/MyKiCad/blob/master/.gitignore)
