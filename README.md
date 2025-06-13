@@ -7,10 +7,10 @@ It's still a work in progress, but I'm hoping to get it produced and tested ASAP
 ![Back render](https://github.com/mothenjoyer69/thinkmoth-expresscard/blob/main/photos/back3d.png)
 
 # Features
+- Bootable! Either with the native NVMe UEFI driver, or with a bootloader installed on the microSD card
 - M.2 2242 *and* M.2 2230 support. On the same board. :3
 - Status LEDs for PCIe and microSD activity
 - 3D printed case that I should probably start designing soon
-- Opencore bootloader on microSD
 
 # To-do
 - Sanity check layout and placement of SD card reader [ ]
