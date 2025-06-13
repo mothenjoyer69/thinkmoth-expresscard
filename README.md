@@ -14,3 +14,8 @@ A low cost, open source ExpressCard 34/54 adapter with M.2 2230 and 2242 support
 - Verify PCIe routing [ ]
 - Verify total height of PCB with components [ ]
 - Prototype PCB run :3 [ ]
+
+# Credits
+A very big thank you to [Ambra](https://github.com/ambraglow/) for the original board outline, cutout, and ExpressCard footprint!
+
+Shoutout to Hackmods for all of the help and advice provided :3 
