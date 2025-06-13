@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "thinkmoth-nvme.kicad_pro",
+    "filename": "thinkmoth-nvme-m2-2242.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -497,10 +497,10 @@
       },
       {
         "clearance": 0.1,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.1,
+        "diff_pair_gap": 0.09,
+        "diff_pair_width": 0.135,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.2,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
