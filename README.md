@@ -1,21 +1,24 @@
-# ThinkMoth ExpressCard to NVMe adapter
-A low cost, open source ExpressCard 34/54 adapter with M.2 2230 and 2242 support, to provide new options for storage for older hardware. Currently work in progress!
-![BoardRender](https://github.com/mothenjoyer69/thinkmoth-expresscard/blob/main/photos/ThinkMoth-Kicad_render_140625.png)
+# ThinkMoth Expresscard to NVMe
+An ExpressCard to NVMe adapter, except this one actually ships! Its also entirely open source from the start, and features additional M.2 2230 support. 
+
+It's still a work in progress, but I'm hoping to get it produced and tested ASAP!
+
+![Front render](https://github.com/mothenjoyer69/thinkmoth-expresscard/blob/main/photos/front3d.png)
+![Back render](https://github.com/mothenjoyer69/thinkmoth-expresscard/blob/main/photos/back3d.png)
 
 # Features
-- Support for both M.2 2230 and M.2 2242 SSDs in a single board
-- PCIe and SD activity LEDs, with solder pads to disable/enable them
-- 3D printed EC34 and EC54 sized cases
+- M.2 2242 *and* M.2 2230 support. On the same board. :3
+- Status LEDs for PCIe and microSD activity
+- 3D printed case that I should probably start designing soon
 - Opencore bootloader on microSD
-- Low cost, and completely, 100% open source
 
 # To-do
-- Triple check layout [ ]
+- Sanity check layout and placement of SD card reader [ ]
 - Verify PCIe routing [ ]
-- Verify total height of PCB with components [ ]
+- Sanity check ExpressCard design requirements [ ]
 - Prototype PCB run :3 [ ]
 
 # Credits
-A very big thank you to [Ambra](https://github.com/ambraglow/) for the original board outline, cutout, and ExpressCard footprint!
+A very big thank you to [Ambra](https://github.com/ambraglow/) for the original board outline, cutout, and EC footprint!
 
-Shoutout to Hackmods for all of the help and advice provided :3 
+Thanks to everyone at Hackmods for all of the help and advice provided :3 
