@@ -1,5 +1,5 @@
 # ThinkMoth Expresscard to NVMe
-An ExpressCard to NVMe adapter, except this one actually ships! Its also entirely open source from the start, and features both M.2 2242 *and* M.2 2230 support. 
+An ExpressCard to NVMe adapter, except this one actually ships! Its also entirely open source from the start, and features both M.2 2242 *and* M.2 2230 support, as well as an SD card slot to let you boot from the SSD on older systems
 
 It's still a work in progress, but I'm hoping to get it produced and tested soon!
 
@@ -12,17 +12,17 @@ It's still a work in progress, but I'm hoping to get it produced and tested soon
 - Status LEDs for PCIe and microSD activity
 - 3D printed case that I should probably start designing soon
 
-# SD card firmware
-You can use Clover, Opencore, or anything else really to be able to boot with NVMe support.
+# Booting from the SSD
+Depending on how old your laptop/device is, you will either be able to boot natively without an issue, or you will need a bootloader on the microSD card. I've picked Opencore for this, and will add more info here later :)
 
 Whenever I get around to it, images will be available in this repo but for now you just to have to close your eyes and imagine.
 
 # Questions?
-1.) What SSD works best?:
+1. What SSD works best?:
     - ExpressCard is super power limited with only 3v3@1A available to the SSD, so avoid higher end drives. WD Blues etc should be a safe bet, but I'll list any and all tested drives here too.
-2.) How fast is it??
+2. How fast is it??
     - ExpressCard only gives you a PCIe 1x link, so depending on how old your laptop is, it should be anywhere from 250MB/s to 1GB/s (PCIe 1.0 to 3.0)
-3.) Is the SD card really necessary?
+3. Is the SD card really necessary?
     - It runs the bootloader for anything old enough to not ship NVMe drivers in firmware. If you are running a newer device, or Coreboot, you don't need the SD.
 
 # To-do
