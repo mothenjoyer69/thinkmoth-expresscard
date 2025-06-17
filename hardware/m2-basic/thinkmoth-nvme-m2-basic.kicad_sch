@@ -4923,7 +4923,7 @@
 			)
 		)
 	)
-	(global_label "SD_LED"
+	(global_label "LED_SD"
 		(shape input)
 		(at 193.04 95.25 0)
 		(fields_autoplaced yes)
@@ -5517,7 +5517,7 @@
 			)
 		)
 	)
-	(global_label "PCIe_LED"
+	(global_label "LED_PCIe"
 		(shape input)
 		(at 140.97 34.29 0)
 		(fields_autoplaced yes)
@@ -5737,7 +5737,7 @@
 			)
 		)
 	)
-	(global_label "PCIe_LED"
+	(global_label "LED_PCIe"
 		(shape input)
 		(at 191.77 144.78 0)
 		(fields_autoplaced yes)
@@ -5759,7 +5759,7 @@
 			)
 		)
 	)
-	(global_label "SD_LED"
+	(global_label "LED_SD"
 		(shape input)
 		(at 191.77 156.21 0)
 		(fields_autoplaced yes)
@@ -8256,7 +8256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MDT180M03001:AMPHENOL_MDT180M03001"
+		(property "Footprint" "thinkmoth:AMPHENOL_MDT180M03001"
 			(at 128.27 67.31 0)
 			(effects
 				(font
