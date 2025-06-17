@@ -1,5 +1,7 @@
 # ThinkMoth Expresscard to NVMe 
-An ExpressCard to NVMe adapter, except this one actually ships! Its also entirely open source from the start, and features both M.2 2242 *and* M.2 2230 support, as well as an SD card slot to let you boot from the SSD on older systems. 
+An ExpressCard to NVMe adapter, except this one actually ships!
+
+The ThinkMoth is a low cost, open source adapter for using an M.2 2230/2242 NVMe SSD in an ExpressCard34/54 socket. It features a microSD card holder to let older machines boot from the SSD, and status LEDs for SD and PCIe activity so you can look at cool lights.  
 
 WIP for now :3
 
@@ -20,6 +22,8 @@ Depending on how old your computer is, you will probably need a bootloader on a 
     - ExpressCard is super power limited with only 3v3@1A available to the SSD, so anything rated *around* that should be okay.
 2. How fast is it?:
     - ExpressCard only gives you a PCIe 1x link, so depending on how old your laptop is, it should be anywhere from 250MB/s to 1GB/s (PCIe 1.0 to 3.0). Works out well with the limited power budget :3
+3. Do all laptops work?:
+    - Everything with an EC34/54 socket should work, including all generations of ThinkPads, Latitudes, Elitebooks etc. If you find something that doesn't, please let me know!
 
 # To-do
 - Sanity check layout and placement of SD card reader [*]
@@ -30,3 +34,4 @@ Depending on how old your computer is, you will probably need a bootloader on a 
 
 # Credits
 A very big thank you to [Ambra](https://github.com/ambraglow/) for the original board outline, cutout, and EC footprint, and also to [Wifi](https://github.com/a-little-wifi/) and [Arya](https://github.com/CRImier/) and everyone else for all of the help and advice :3 
+
