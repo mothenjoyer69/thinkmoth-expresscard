@@ -3094,28 +3094,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SOFNG-TF-001B:TF-001B"
+		(symbol "SOFNG-TF-009:TF-009"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Card1"
-				(at -2.54 21.59 0)
+			(property "Reference" "Card"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TF-001B"
-				(at -2.54 19.05 0)
+			(property "Value" "TF-009"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "SOFNG-TF-001B:TF-SMD_TF-001B"
-				(at 0 -21.59 0)
+			(property "Footprint" "SOFNG-TF-009:TF-SMD_TF-009"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3123,8 +3123,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Card-Sockets_TFDeck_C125617.html"
-				(at 0 -24.13 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Connector-Card-Sockets_SOFNG-TF-009_C428466.html"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3141,8 +3141,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C125617"
-				(at 0 -26.67 0)
+			(property "LCSC Part" "C428466"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3150,10 +3150,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TF-001B_0_1"
+			(symbol "TF-009_0_1"
 				(rectangle
-					(start -5.08 16.51)
-					(end 10.16 -16.51)
+					(start -7.62 13.97)
+					(end 10.16 -11.43)
 					(stroke
 						(width 0)
 						(type default)
@@ -3162,9 +3162,20 @@
 						(type background)
 					)
 				)
+				(circle
+					(center -6.35 12.7)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin unspecified line
-					(at -10.16 13.97 0)
-					(length 5.08)
+					(at -10.16 10.16 0)
+					(length 2.54)
 					(name "DAT2"
 						(effects
 							(font
@@ -3181,8 +3192,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 11.43 0)
-					(length 5.08)
+					(at -10.16 7.62 0)
+					(length 2.54)
 					(name "CD/DAT3"
 						(effects
 							(font
@@ -3199,8 +3210,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 8.89 0)
-					(length 5.08)
+					(at -10.16 5.08 0)
+					(length 2.54)
 					(name "CMD"
 						(effects
 							(font
@@ -3217,8 +3228,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 6.35 0)
-					(length 5.08)
+					(at -10.16 2.54 0)
+					(length 2.54)
 					(name "VDD"
 						(effects
 							(font
@@ -3235,8 +3246,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 3.81 0)
-					(length 5.08)
+					(at -10.16 0 0)
+					(length 2.54)
 					(name "CLK"
 						(effects
 							(font
@@ -3253,8 +3264,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 1.27 0)
-					(length 5.08)
+					(at -10.16 -2.54 0)
+					(length 2.54)
 					(name "VSS"
 						(effects
 							(font
@@ -3271,8 +3282,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -1.27 0)
-					(length 5.08)
+					(at -10.16 -5.08 0)
+					(length 2.54)
 					(name "DAT0"
 						(effects
 							(font
@@ -3289,8 +3300,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -3.81 0)
-					(length 5.08)
+					(at -10.16 -7.62 0)
+					(length 2.54)
 					(name "DAT1"
 						(effects
 							(font
@@ -3307,9 +3318,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -6.35 0)
-					(length 5.08)
-					(name "SHIELD"
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "EH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3317,60 +3328,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -8.89 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -11.43 0)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -13.97 0)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3655,7 +3612,7 @@
 		)
 		(uuid "b5c10c3f-1951-467b-9a8e-a7c828b8cfb0")
 	)
-	(text "A cool open source ExpressCard\nto NVMe SSD adapter, for all those\nold laptops you really should replace!\n\nSupports both M.2 2230 and M.2242,\nand supports running a bootloader \non the microSD card\n\nThis board doesn't support SATA :(\n\n\n\n\n\nParts used:\nU1 - Genesys Logic GL823K (LCSC)\nJ1 - Amphenol MDT180M03001 (Digikey)\nJ2 - Amphenol 10030570-2112l (Arrow)\nJ3 - Sofng TF-001B (LCSC)\nR1 - 4kΩ 6.3v 0402 (LCSC)\nR2 - 4kΩ 6.3v 0402 (LCSC)\nJM1 - 0Ω 0402 (LCSC)\nJM2 - 0Ω 0402 (LCSC)\nC1 - 0.1uF 6.3v 0402 (LCSC)\nC2 - 0.1uF 6.3v 0402 (LCSC)\nC3 - 0.1uF 6.3v 0402 (LCSC)\nC4 - 0.1uF 6.3v 0402 (LCSC)\nD1 - Pink 0603 LED (LCSC)\nD2 - Blue 0603 LED (LCSC)\nF1 - 1.5A 0805 Fuse MFU0805FF01500P500 (LCSC)"
+	(text "An open source ExpressCard to NVMe\nadapter for old laptops :)\n\nSupports both M.2 2230 and M.2242,\nand supports running a bootloader \non the microSD card\n\nThis board doesn't support SATA :(\n\n\n\n\n\nPartlist:\nU1 - Genesys Logic GL823K (LCSC)\nJ1 - Amphenol 10030570-2112l (Arrow)\nJ2 - Amphenol MDT180M03001 (Digikey)\nJ3 - Sofng TF-001B (LCSC)\nR1 - 4kΩ 6.3v 0402 (LCSC)\nR2 - 4kΩ 6.3v 0402 (LCSC)\nJM1 - 0Ω 0402 (LCSC)\nJM2 - 0Ω 0402 (LCSC)\nC1 - 0.1uF 6.3v 0402 (LCSC)\nC2 - 0.1uF 6.3v 0402 (LCSC)\nC3 - 0.1uF 6.3v 0402 (LCSC)\nC4 - 0.1uF 6.3v 0402 (LCSC)\nD1 - Pink 0603 LED (LCSC)\nD2 - Blue 0603 LED (LCSC)\nF1 - 1.5A 0805 Fuse MFU0805FF01500P500 (LCSC)"
 		(exclude_from_sim no)
 		(at 14.986 91.186 0)
 		(effects
@@ -3758,18 +3715,6 @@
 		(uuid "3ec45632-01b2-48b0-9926-39c795bd19e2")
 	)
 	(junction
-		(at 168.91 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44f0f58b-78ee-498a-9ca9-0d7f4acaed7a")
-	)
-	(junction
-		(at 168.91 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bf4219d-9da7-4fd5-ba94-ddb2bc97f218")
-	)
-	(junction
 		(at 140.97 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3786,12 +3731,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e116d75-d4cc-4798-8106-5e94212f2ff1")
-	)
-	(junction
-		(at 168.91 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "627e72a2-8aca-4d64-ba36-bfd1330731fa")
 	)
 	(junction
 		(at 114.3 26.67)
@@ -4105,16 +4044,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 59.69) (xy 168.91 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2576c077-dd68-452a-bd32-a247240ac963")
-	)
-	(wire
-		(pts
 			(xy 238.76 151.13) (xy 247.65 151.13)
 		)
 		(stroke
@@ -4205,16 +4134,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 58.42) (xy 168.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3944adde-363e-473b-bc13-5821c06b2d77")
-	)
-	(wire
-		(pts
 			(xy 194.31 100.33) (xy 194.31 102.87)
 		)
 		(stroke
@@ -4295,16 +4214,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 62.23) (xy 168.91 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ee09f4e-3eb1-4d42-92fd-4ad6da07bb89")
-	)
-	(wire
-		(pts
 			(xy 114.3 26.67) (xy 115.57 26.67)
 		)
 		(stroke
@@ -4322,16 +4231,6 @@
 			(type default)
 		)
 		(uuid "64de8330-be9d-4839-b33a-27d947203458")
-	)
-	(wire
-		(pts
-			(xy 168.91 57.15) (xy 168.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69140578-168d-427a-9052-b294e7b55266")
 	)
 	(wire
 		(pts
@@ -4392,16 +4291,6 @@
 			(type default)
 		)
 		(uuid "82a20eb1-9150-4a00-a3f7-40a7b04d31d6")
-	)
-	(wire
-		(pts
-			(xy 168.91 58.42) (xy 168.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c79974-99da-4f42-bbc5-9d9a5577b0c8")
 	)
 	(wire
 		(pts
@@ -4482,16 +4371,6 @@
 			(type default)
 		)
 		(uuid "a291dddb-83b4-4490-8ade-59f4f0eeb979")
-	)
-	(wire
-		(pts
-			(xy 170.18 59.69) (xy 168.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5029555-076e-49e5-a1bf-e4463e097a7e")
 	)
 	(wire
 		(pts
@@ -4738,28 +4617,6 @@
 		(uuid "03354936-ca6a-4baf-b35e-ec4bcbe4cf0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.3686 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CMD"
-		(shape input)
-		(at 168.91 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0885f28f-1e72-4dae-b33a-ed7f353c47bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.4863 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,6 +4912,28 @@
 			)
 		)
 	)
+	(global_label "SD_3V3"
+		(shape input)
+		(at 172.72 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4698bc29-e0b2-4ae1-891c-bb43267c9508")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7801 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PCIe_CLK_P"
 		(shape input)
 		(at 237.49 68.58 0)
@@ -5073,50 +4952,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CLK"
-		(shape input)
-		(at 168.91 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e12478e-f28d-41cd-93ea-e5912cbbdae9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9096 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_3V3"
-		(shape input)
-		(at 168.91 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "533fd551-01ee-4930-9b2b-493122d0ab96")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9701 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5143,28 +4978,6 @@
 			)
 		)
 	)
-	(global_label "SD_DAT0"
-		(shape input)
-		(at 168.91 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a6f23a7-940b-4e8a-8376-d2d1157faea7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.942 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SD_CMD"
 		(shape input)
 		(at 167.64 95.25 180)
@@ -5178,6 +4991,50 @@
 		(uuid "6d0034b0-03d3-44f8-9c88-310929a73ade")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.2163 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CLK"
+		(shape input)
+		(at 172.72 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73b793cd-8470-4132-9bbc-c555dbe1f2ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7196 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CMD"
+		(shape input)
+		(at 172.72 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7502f3ed-b0a9-4c16-87d7-1b1f4bcb5f98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.2963 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,6 +5106,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_DAT2"
+		(shape input)
+		(at 172.72 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87c33298-950f-43a0-8039-17373fedeedb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.752 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5451,50 +5330,6 @@
 			)
 		)
 	)
-	(global_label "SD_DAT3"
-		(shape input)
-		(at 168.91 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad5254dd-ec24-4a98-9e1f-e0767177aa68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.942 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT1"
-		(shape input)
-		(at 168.91 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aecddee3-1f7f-4cfd-ad11-ac52e575880c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.942 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SD_3V3"
 		(shape input)
 		(at 167.64 102.87 180)
@@ -5535,6 +5370,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_DAT1"
+		(shape input)
+		(at 172.72 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b44326a0-8237-434e-bd3b-bb0c5e80da6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.752 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5693,28 +5550,6 @@
 			)
 		)
 	)
-	(global_label "SD_DAT2"
-		(shape input)
-		(at 168.91 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d68c33cd-6df6-4fad-b2fb-914278622ccb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.942 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PCIe_TX_N"
 		(shape input)
 		(at 266.7 53.34 0)
@@ -5755,6 +5590,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_DAT3"
+		(shape input)
+		(at 172.72 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e19c3012-4e10-4da7-8bb1-0ebc597b21db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.752 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5816,6 +5673,28 @@
 		(uuid "f82298fa-41a5-4cc4-82e9-55a4cb9f0def")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 261.4772 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_DAT0"
+		(shape input)
+		(at 172.72 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa145a41-7064-46f2-9533-38fad8cc7803")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.752 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +5897,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 58.42 270)
+		(at 195.58 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6026,7 +5905,7 @@
 		(dnp no)
 		(uuid "136b520b-26f4-4ab6-82d1-f2b6d868e9df")
 		(property "Reference" "#PWR09"
-			(at 161.29 58.42 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +5914,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.322 58.166 0)
+			(at 199.898 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +5922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 58.42 0)
+			(at 195.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +5931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 58.42 0)
+			(at 195.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +5940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 58.42 0)
+			(at 195.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +5952,7 @@
 			(uuid "b3195454-df31-4979-8bc4-4cfee3864b2a")
 		)
 		(instances
-			(project "thinkmoth-nvme"
+			(project "thinkmoth-nvme-m2-basic"
 				(path "/555b1918-907f-4888-b85a-a9dd6e2461f8"
 					(reference "#PWR09")
 					(unit 1)
@@ -7569,6 +7448,104 @@
 		)
 	)
 	(symbol
+		(lib_id "SOFNG-TF-009:TF-009")
+		(at 182.88 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b52c791c-6563-4138-a26f-7b63771a0fb1")
+		(property "Reference" "J3"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TF-009"
+			(at 184.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOFNG-TF-009:TF-SMD_TF-009"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Connector-Card-Sockets_SOFNG-TF-009_C428466.html"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C428466"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "2bf4a558-354b-4fee-b3df-d70e236eb783")
+		)
+		(pin "7"
+			(uuid "dfe21644-e76c-4b50-b1b4-30376a49b659")
+		)
+		(pin "4"
+			(uuid "dd8e2d41-feb5-4460-9021-fe388adb33d3")
+		)
+		(pin "3"
+			(uuid "bdf1d2d5-cd1b-4ebf-8fc7-f102a8c58d9c")
+		)
+		(pin "8"
+			(uuid "96ade3e6-302d-4bc1-8cb4-a275962cb0ee")
+		)
+		(pin "9"
+			(uuid "660f4d71-c63d-460e-9877-7cda2617c723")
+		)
+		(pin "2"
+			(uuid "3699cba9-8908-4185-a2df-abb3ce63dae0")
+		)
+		(pin "1"
+			(uuid "cdd3bb73-69ac-427f-afde-bb41a63f2c0a")
+		)
+		(pin "5"
+			(uuid "8c0f0603-2d16-4459-a56c-9a004c6ced0e")
+		)
+		(instances
+			(project ""
+				(path "/555b1918-907f-4888-b85a-a9dd6e2461f8"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 111.76 0)
 		(unit 1)
@@ -8541,115 +8518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SOFNG-TF-001B:TF-001B")
-		(at 179.07 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de8d5c0d-9bf8-4c2c-a225-188acecdd6bd")
-		(property "Reference" "J3"
-			(at 190.5 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TF-001B"
-			(at 190.5 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOFNG-TF-001B:TF-SMD_TF-001B"
-			(at 179.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Card-Sockets_TFDeck_C125617.html"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C125617"
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "22559482-5fd9-4ca3-9be1-557ce171faa6")
-		)
-		(pin "2"
-			(uuid "456ea1f7-134f-4e9a-af9e-2a234d457ed8")
-		)
-		(pin "4"
-			(uuid "6dae4a78-d1b4-4fda-83e9-6a9b163229b8")
-		)
-		(pin "10"
-			(uuid "c8b9e19d-c106-4bdd-8cd6-daf2816621f3")
-		)
-		(pin "7"
-			(uuid "4a210f4d-a854-4144-b1b1-e2ff2e01ed56")
-		)
-		(pin "1"
-			(uuid "c491f9d6-fa32-40ae-9f45-f1be6af53b7f")
-		)
-		(pin "9"
-			(uuid "1eb1afe7-3b9f-48be-abc5-7f5e5d1ad547")
-		)
-		(pin "3"
-			(uuid "3e656ccc-79f5-4172-a393-27d6486fdd29")
-		)
-		(pin "5"
-			(uuid "2148bc22-735d-46cd-b201-c7f2b4a0c174")
-		)
-		(pin "8"
-			(uuid "560cd590-8574-481f-b99b-8d1068d2cebe")
-		)
-		(pin "12"
-			(uuid "8158d3ec-8fee-45d5-98cb-f5141c9b12dc")
-		)
-		(pin "11"
-			(uuid "b9c2d440-05de-436e-bfbc-78c14fb45fe0")
-		)
-		(instances
-			(project ""
-				(path "/555b1918-907f-4888-b85a-a9dd6e2461f8"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 167.64 85.09 270)
 		(unit 1)
@@ -8718,7 +8586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 49.53 270)
+		(at 172.72 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8726,7 +8594,7 @@
 		(dnp no)
 		(uuid "f9000464-4962-496c-8b13-9c763c87e086")
 		(property "Reference" "#PWR011"
-			(at 162.56 49.53 0)
+			(at 166.37 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 164.592 49.276 90)
+			(at 168.402 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 49.53 0)
+			(at 172.72 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 49.53 0)
+			(at 172.72 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 49.53 0)
+			(at 172.72 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8641,7 @@
 			(uuid "603b57d1-b186-4c9c-9f0c-bd69fbcd1aa4")
 		)
 		(instances
-			(project "thinkmoth-nvme"
+			(project "thinkmoth-nvme-m2-basic"
 				(path "/555b1918-907f-4888-b85a-a9dd6e2461f8"
 					(reference "#PWR011")
 					(unit 1)
